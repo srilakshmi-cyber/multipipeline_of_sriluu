@@ -9,10 +9,10 @@ pipeline {
         }
      
         stage('sprint1') { 
-            steps { 
-               sh 'echo.... "This is Sprint1 branch"'
-            }
-        }
+            steps {
+	       sh 'echo "this is sprint1 branch"'
+	    }
+	}
 
         stage("hotfix") { 
              steps { 
